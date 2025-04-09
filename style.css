@@ -185,13 +185,15 @@ main {
 #about-us {
     padding: 30px 20px;
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     color: #333;
+    
 }
 
 .about-us-content {
     max-width: 600px;
     margin: 0 auto;
+    
 }
 
 .about-us-content h2 {
@@ -210,6 +212,7 @@ main {
     font-size: 1em;
     line-height: 1.4;
     margin-bottom: 15px;
+    
 }
 
 .about-us-actions {
@@ -219,13 +222,13 @@ main {
     margin-top: 20px;
 }
 
-
 .about-us-cards-container {
     display: flex; 
     justify-content: space-around;
     align-items: center;
     margin-top: 60px;
     margin-bottom: 60px;
+    
 }
 
 .about-us-card {
@@ -238,18 +241,35 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    border-radius: 25px;
-    border-bottom:5px solid #0000ff;
+    border-bottom: 15px solid #0000ff;
+    overflow: hidden;
+    position: relative;
+}
+
+.about-us-card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 .card-text-container {
+    position: relative;
+    z-index: 1;
     text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
 }
 
 .card-text-container h3 {
     font-family: 'Source Serif 4', serif;
     font-size: 1.5em;
-    color: #ffffff;
     margin-bottom: 10px;
 }
 
@@ -258,13 +278,12 @@ main {
     line-height: 1.4;
     margin-bottom: 0;
 }
-.card-one {
 
+.card-one {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('https://images.pexels.com/photos/11477798/pexels-photo-11477798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-size: cover;
     background-position: center;
     color: white;
-    
 }
 
 .card-two {
@@ -302,29 +321,312 @@ align-items: center;
 }
 
 footer {
+    border-top: 10px solid #121212;
+    padding: 72px 0px 72px 0px;
+    position: relative;
+    z-index: 1;
+    background-color: #FFF;
+}
+
+footer .wrapper {
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
+    flex-flow: row wrap;
+    align-items: center;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px;
 }
 
-.left, .right {
+@media screen and (min-width: 1250px) {
+    footer .wrapper {
+        width: calc(100px * 12);
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1250px) {
+    footer .wrapper {
+        width: 100%;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    footer .wrapper {
+        width: 100%;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+}
+
+footer ul {
+    padding-left: 50px;
+    padding-right: 50px;
+    flex: 1;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 140px;
+    list-style: none;
 }
 
-.left a, .right a {
+footer ul li {
+    margin-right: 25px;
+}
+
+footer ul li:not(:last-child) {
+    margin-bottom: 18px;
+}
+
+footer ul li a {
     text-decoration: none;
-    margin-left: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    text-transform: uppercase;
 }
 
-.copyright {
-    margin: 0 20px;
+footer ul li .icn {
+    margin-right: 10px;
 }
 
-icon {
-    width: 25px;
-    height: 25px;
-    margin-right: 5px;
-
+footer ul li span {
+    font-family: Matter-Regular, sans-serif;
+    color: #121212;
 }
+
+@media screen and (min-width: 700px) {
+    footer ul li span {
+        font-size: 18px;
+        line-height: 27px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    footer ul li span {
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
+
+footer ul .container-email {
+    position: relative;
+}
+
+footer ul .container-email h2 {
+    color: #000000;
+    font-family: Matter-Light, sans-serif;
+}
+
+@media screen and (min-width: 700px) {
+    footer ul .container-email h2 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    footer ul .container-email h2 {
+        font-size: 24px;
+    }
+}
+
+footer ul .container-email .container-input {
+    margin-top: 14px;
+    position: relative;
+    width: 100%;
+}
+
+footer ul .container-email .container-input input {
+    padding-left: 24px;
+    border-radius: 4px;
+    border: 1px solid #181818;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    padding-right: 85px;
+    font-family: Matter-Regular, sans-serif;
+    color: #4a4a4a;
+    transition: all 0.25s ease;
+    background-color: transparent;
+}
+
+@media screen and (min-width: 700px) {
+    footer ul .container-email .container-input input {
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    footer ul .container-email .container-input input {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+footer ul .container-email .container-input input:focus {
+    border-color: #181818;
+}
+
+footer ul .container-email .container-input input.style-error+.error {
+    display: block;
+}
+
+footer ul .container-email .container-input .error {
+    display: none;
+    position: absolute;
+    top: calc(100% + 9px);
+    left: 0;
+    font-family: Matter-Regular, sans-serif;
+    color: #EE2929;
+}
+
+@media screen and (min-width: 700px) {
+    footer ul .container-email .container-input .error {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    footer ul .container-email .container-input .error {
+        font-size: 11px;
+        line-height: 16.5px;
+    }
+}
+
+footer ul .container-email .container-input.style-focus .title:before {
+    -webkit-transform: scaleX(1.5);
+    transform: scaleX(1.5);
+}
+
+footer ul .container-email .container-input.style-focus .title span {
+    transition-delay: 0.1s;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+
+footer ul .container-email .container-input button {
+    cursor: pointer;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+}
+
+footer ul .container-email .container-input button .btn-arrow {
+    width: 17px;
+    height: 10px;
+}
+
+footer .container-contact .link {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    width: 155px;
+    height: 155px;
+}
+
+footer .container-contact .link .link-arrow,
+footer .container-contact .link .link-play,
+footer .container-contact .link .link-point {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    fill: none;
+    transition: all 500ms cubic-bezier(0.245, 0, 0, 1);
+}
+
+footer .container-contact .link .container-link-circle {
+    width: 100%;
+    height: 100%;
+    display: block;
+    -webkit-animation-name: loop;
+    animation-name: loop;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+@keyframes loop {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+footer .container-contact .link .container-link-circle .circle-anim {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all 1000ms cubic-bezier(0.245, 0, 0, 1);
+}
+
+footer .container-contact .link .container-link-circle .link-circle {
+    width: 100%;
+    height: 100%;
+    -webkit-animation-name: loop;
+    animation-name: loop;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+footer .container-contact .link .container-link-circle .link-circle text {
+    letter-spacing: 2.5px;
+    fill: blue;
+    font-weight: 600;
+}
+
+
+footer .container-contact .link .link-play {
+    width: 15px;
+    left: calc(50% + 5px);
+    fill: #121212;
+}
+
+
+@media screen and (min-width: 700px) {
+    footer .container-contact .link .link-circle text {
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    footer .container-contact .link .link-circle text {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+#circle-path {
+    fill: none;
+    stroke: none;
+}
+
+
