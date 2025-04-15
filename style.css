@@ -138,7 +138,7 @@ button.btn:focus {
 }
 
 .nav-links li a:hover {
-    color: #f0f0f0;
+    color: #0000ff;
 }
 
 .nav-buttons {
@@ -302,7 +302,7 @@ main {
 .about-us-card, .destination-item {
     position: relative;
     overflow: hidden;
-    border-bottom: 15px solid #0000ff;
+    border-bottom: 25px solid #0000ff;
 }
 
 .about-us-card {
@@ -357,6 +357,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 25px solid #0000ff;
 }
 
 .statement-text {
@@ -386,7 +387,7 @@ main {
 
 .destination-info .price {
     font-weight: bold;
-    color: #0000ff;
+    color: #ffffff;
 }
 
 #testimonials {
