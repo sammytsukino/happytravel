@@ -53,6 +53,18 @@ body {
     font-size: 1.1em;
 }
 
+button.btn {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+}
+
+button.btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 0, 255, 0.3);
+}
+
 #about-us, #destinations, #testimonials, #contact {
     padding: 60px 20px;
     text-align: center;
