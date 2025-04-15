@@ -236,7 +236,7 @@ button.btn:focus {
     height: 100%;
     opacity: 0;
     object-fit: contain;
-    animation: brutalCycle 3s step-end infinite;
+    animation: brutalCycle 1s step-end infinite;
 }
 
 @keyframes brutalCycle {
