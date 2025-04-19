@@ -1,6 +1,6 @@
 # 🌧️ happytravel® - Embrace the Gloom
 
-![happytravel logo](https://res.cloudinary.com/dsy30p7gf/image/upload/v1743611886/Recurso_1happylogo_hcck2q.png)
+![happytravel logo](https://res.cloudinary.com/dsy30p7gf/image/upload/v1745098167/happytravel-gif_u4qwkm.gif)
 
 ## About the Project
 
