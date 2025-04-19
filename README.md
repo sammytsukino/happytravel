@@ -2,6 +2,7 @@
 
 ![happytravel logo](https://res.cloudinary.com/dsy30p7gf/image/upload/v1745098167/happytravel-gif_u4qwkm.gif)
 
+[Check out happytravel® on Vercel](https://happytravel-beige.vercel.app/)
 
 ## About the Project
 
