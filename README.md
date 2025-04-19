@@ -2,6 +2,7 @@
 
 ![happytravel logo](https://res.cloudinary.com/dsy30p7gf/image/upload/v1745098167/happytravel-gif_u4qwkm.gif)
 
+
 ## About the Project
 
 **happytravel®** is a fictional alternative travel agency that flips the conventional travel industry on its head. Instead of promising sun-soaked beaches and picture-perfect moments, we specialize in curated melancholic experiences, embracing the beauty in gloom, solitude, and reflection.
