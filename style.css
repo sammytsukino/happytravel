@@ -133,11 +133,11 @@ body {
 /* Logo Animation */
 .logo-principal {
     position: relative;
-    width: 250%;
+    width: 150%;
     max-width: 1232px;
     height: 344px;
     left: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     transform: translateX(-50%);
 }
 
