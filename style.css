@@ -133,12 +133,13 @@ body {
 /* Logo Animation */
 .logo-principal {
     position: relative;
-    width:70vw;
+    width:60vw;
     max-width: 1232px;
     height: 344px;
     left: 50%;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     transform: translateX(-50%);
+    margin-top: 50px;
 }
 
 .logo-cycling {
