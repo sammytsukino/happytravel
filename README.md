@@ -1,6 +1,6 @@
 # 🌧️ happytravel® - Embrace the Gloom
 
-![happytravel logo](https://res.cloudinary.com/dsy30p7gf/image/upload/v1745098167/happytravel-gif_u4qwkm.gif)
+<img src="https://res.cloudinary.com/dsy30p7gf/image/upload/v1746981897/happytravel-intro_t04bre.gif" width="1200">
 
 [Check out happytravel® on Vercel](https://happytravel-beige.vercel.app/)
 
@@ -22,6 +22,8 @@ Our design aesthetic reflects this concept through:
 - Brutalist design elements with cycling logo animations
 - Mix of serif and sans-serif typography
 
+<img src="https://res.cloudinary.com/dsy30p7gf/image/upload/v1746982128/Captura_de_pantalla_2025-05-11_184836_mtfbin.png" width="1200">
+
 ## Key Features
 
 ### 🏙️ Unique Destinations
@@ -39,6 +41,8 @@ Our design aesthetic reflects this concept through:
 - **Perpetual Twilight Shores**: Brave grey beaches, listen to sad gulls in endless twilight
 - **Silent Village Graveyards**: Reflect on lives past in quiet, old cemeteries
 - **Empty Streets of Forgotten Cities**: Wander towns where time slowed down, discover quiet decline
+
+<img src="https://res.cloudinary.com/dsy30p7gf/image/upload/v1746982128/Captura_de_pantalla_2025-05-11_184824_qwfiyv.png" width="1200">
 
 ## Design & Technology
 
@@ -69,6 +73,7 @@ This is a fictional design project created to showcase:
 - Subversion of travel industry norms
 - Implementation of brutalist-inspired web design elements
 
+
 ## Credits
 
 - Logo designs and concept: SAMMYCABELLO®
@@ -79,3 +84,6 @@ This is a fictional design project created to showcase:
 
 *"feeling blue? discover the ~~happiest~~ saddest destinations"*  
 ☆*: .｡. (╥﹏╥) .｡.:*☆
+
+
+<img align="right" src="https://res.cloudinary.com/dsy30p7gf/image/upload/v1746982756/Recurso_5SAMMYSAD_odl92w.png" width="300">
