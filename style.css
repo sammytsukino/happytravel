@@ -259,7 +259,7 @@ main {
     max-width: 300px;
 }
 
-.about-us-card img, .destination-item img {
+.about-us-card img, .newsletter-image:hover img, .destination-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
