@@ -266,7 +266,7 @@ main {
     transition: transform 0.3s ease;
 }
 
-.about-us-card:hover img, .destination-item:hover img {
+.about-us-card:hover img, .newsletter-image:hover img, .destination-item:hover img {
     transform: scale(1.10);
 }
 
@@ -436,6 +436,126 @@ main {
 .form-group textarea {
     height: 150px;
     resize: vertical;
+}
+
+
+/* Newlestter */
+
+#newsletter {
+    background: linear-gradient(#ffffff, #f0f0f0);
+    padding: 60px 20px;
+}
+
+.newsletter-preview {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.newsletter-header {
+    margin-bottom: 40px;
+}
+
+.newsletter-header h2 {
+    font-family: 'Source Serif 4', serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #0000ff;
+}
+
+.newsletter-header h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.newsletter-sample {
+    display: flex;
+    background-color: white;
+    border-bottom: 25px solid #0000ff;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter-image {
+    flex: 1;
+    min-height: 300px;
+    overflow: hidden;
+}
+
+.newsletter-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.newsletter-content {
+    flex: 1;
+    padding: 30px;
+    text-align: left;
+}
+
+.newsletter-content h3 {
+    font-family: 'Source Serif 4', serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.newsletter-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.newsletter-highlights {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+.highlight {
+    text-align: center;
+    padding: 0 15px;
+}
+
+.highlight h4 {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.highlight p {
+    font-size: 22px;
+    color: #0000ff;
+    font-weight: bold;
+    margin: 0;
+}
+
+.newsletter-subscribe-note {
+    font-style: italic;
+    color: #666;
+    font-size: 14px !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .newsletter-sample {
+        flex-direction: column;
+    }
+    
+    .newsletter-image {
+        min-height: 200px;
+    }
+    
+    .journal-entry {
+        max-width: 100%;
+    }
+
+    .journal-entries {
+        flex-direction: column;
+    }
 }
 
 /* Footer */
