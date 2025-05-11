@@ -67,11 +67,11 @@ This is a fictional design project created to showcase:
 - Unconventional web design aesthetics
 - Alternative branding concepts
 - Subversion of travel industry norms
-- Implementation of brutalist web design elements
+- Implementation of brutalist-inspired web design elements
 
 ## Credits
 
-- Logo designs and concept: happytravel® design team
+- Logo designs and concept: SAMMYCABELLO®
 - Photography: Various sources via Pexels
 - Icons: Font Awesome
 
