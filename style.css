@@ -442,8 +442,9 @@ main {
 /* Newlestter */
 
 #newsletter {
-    background: linear-gradient(#ffffff, #f0f0f0);
+    background-color: #ffffff;
     padding: 60px 20px;
+    margin-bottom: 60px;
 }
 
 .newsletter-preview {
